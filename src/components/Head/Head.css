@@ -1,0 +1,11 @@
+.head_wrapper {
+  height: 100px;
+  background-color: lightgray;
+}
+
+.head_text {
+  color: green;
+  padding-top: 25px;
+  margin-top: 0;
+  margin-left: 200px;
+}
