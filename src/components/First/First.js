@@ -4,7 +4,7 @@ class First extends Component {
   constructor() {
     super();
     this.state = {
-      cars: ["chevy", "ford", "toyota", "nissan", "jeep"],
+      //   cars: ["chevy", "ford", "toyota", "nissan", "jeep"],
       userInput: "hello",
       results: ""
     };
@@ -20,11 +20,15 @@ class First extends Component {
   };
 
   render() {
-      let myArr = this.state.cars.map(elem,ind)=>{
-          return "hello"
-      }
     // console.log("userInput ", this.state.userInput);
     // console.log("results ", this.state.results);
+    // let myTest = this.state.cars.map((elem, ind) => {
+    //   return (
+    //     <div key={ind}>
+    //       <div>{elem}</div>
+    //     </div>
+    //   );
+    // });
     return (
       <div>
         {/* <div>hello from First</div> */}
@@ -36,8 +40,7 @@ class First extends Component {
           Enter
         </button>
         <div>{this.state.results}</div>
-        {/* <div>{this.state.cars}</div> */}
-        {/* {this.state.cars} */}
+        {/* {myTest} */}
       </div>
     );
   }
